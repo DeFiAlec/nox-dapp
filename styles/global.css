@@ -1,0 +1,25 @@
+:root {
+  --blue: "#2D7DDB";
+  --red: "#ed4337";
+  --orange: "#ffb347";
+  --lightBlack: "rgba(0, 0, 0, 0.87)";
+  --black: "rgb(22,22,22)";
+  --gold: "#ffaf1d";
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(128, 128, 128, 0);
+  background: url('/calendar.svg') no-repeat;
+  background-size: contain;
+  opacity: 1;
+  display: block;
+  border-width: thin;
+  position: absolute;
+  left: -115px;
+  z-index: 9;
+}
+
+button {
+  text-transform: none !important;
+}
